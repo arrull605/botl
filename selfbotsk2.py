@@ -726,10 +726,10 @@ def help():
     num = (num+1)
     helpMessage += "│ " + " │ %i)" % num + key + "welcome on/off\n"
     num = (num+1)
-    helpMessage += "│ " + " ├──────────────\n"
-    helpMessage += "│ " + " ╰───•  ʙʏ Arrul •────\n"
-    helpMessage += "╰━─────────────━ \n"
-    return helpMessage
+    helpMessage3 += "│ " + " ├──────────────\n"
+    helpMessage3 += "│ " + " ╰───• sʙ ʙʏ Arrul •────\n"
+    helpMessage3 += "╰━────────────━ \n"
+    return helpMessage3
 
 def helpbot():
     num = 1
@@ -840,10 +840,10 @@ def helpbot():
     num = (num+1)
     helpMessage2 += "│" + " │ %i)" % num + key + " Ssider: kata\n"
     num = (num+1)
-    helpMessage += "│ " + " ├──────────────\n"
-    helpMessage += "│ " + " ╰───•  ʙʏ Arrul •────\n"
-    helpMessage += "╰━─────────────━ \n"
-    return helpMessage
+    helpMessage3 += "│ " + " ├──────────────\n"
+    helpMessage3 += "│ " + " ╰───• sʙ ʙʏ Arrul •────\n"
+    helpMessage3 += "╰━────────────━ \n"
+    return helpMessage3
     
 def helpmedia():
     num = 1
@@ -886,10 +886,10 @@ def helpmedia():
     num = (num+1)
     helpMessage3 += "│ " + " │ %i)" % num + key + " Dellimg nama\n"
     num = (num+1)
-    helpMessage += "│ " + " ├──────────────\n"
-    helpMessage += "│ " + " ╰───•  ʙʏ Arrul •────\n"
-    helpMessage += "╰━─────────────━ \n"
-    return helpMessage
+    helpMessage3 += "│ " + " ├──────────────\n"
+    helpMessage3 += "│ " + " ╰───• sʙ ʙʏ Arrul •────\n"
+    helpMessage3 += "╰━────────────━ \n"
+    return helpMessage3    
 
 def bot(op):
     global time
@@ -2092,8 +2092,8 @@ def bot(op):
                                 else: md+="│╠══[ OFF ] ᴊs❌\n"                                
                                 if msg.to in protectcancel: md+="│╠══[  ON  ] ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ✔️\n"
                                 else: md+="│╠══[ OFF ] ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ❌\n"
-                                md+= "│╚══[ TΣΔM βΩT PRΩTΣCTsᴋ ]"
-                                Arrul.sendMessage(msg.to, md+"\n│ᴛᴀɴɢɢᴀʟ : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n│ᴊᴀᴍ  "+ datetime.strftime(timeNow,'%H:%M:%S')+" ")   
+                                md+= "│╚══[ Arrul ]"
+                                dhenzaSelfbot.sendMessage(msg.to, md+"\n│ᴛᴀɴɢɢᴀʟ : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\n│ᴊᴀᴍ  "+ datetime.strftime(timeNow,'%H:%M:%S')+" ")   
                                 
                           
                         elif cmd == "creator" or text.lower() == 'creator':
@@ -2122,7 +2122,7 @@ def bot(op):
                                dhenzaSelfbot.sendMessage(msg.to, msg._from)
                                
                         elif text.lower() == "dz":
-                               dhenzaSelfbot.sendMessage(msg.to, "hallo jangan lupa di subscribe ya kk chanel kita\n https://www.youtube.com/channel/UCNLejYy84XyUX8qcDropXMw")
+                               dhenzaSelfbot.sendMessage(msg.to, "hallo")
 
                         elif ("Get id " in msg.text):
                           if wait["selfbot"] == True:
@@ -3971,7 +3971,7 @@ def runningProgram():
 
 if __name__ == '__main__':
     print (' [•] SYSTEM MESSAGE : *BOT BERHASIL DI INSTALL.\n______________________________\n')
-    print (' [•] SYSTEM MESSAGE : \n*Arrul\n')
+    print (' [•] SYSTEM MESSAGE : \n*\n')
     runningProgram()
       
             
